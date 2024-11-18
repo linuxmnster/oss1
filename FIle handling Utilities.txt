@@ -1,0 +1,29 @@
+1. ls - List Directory Contents
+The ls command is used to list files and directories within a specified directory.
+
+Basic usage:
+$ ls
+List all files, including hidden ones:
+$ ls -a
+---------------------------------------------------------------------------------------
+2. cp - Copy Files and Directories
+The cp command is used to copy files or directories from one location to another.
+
+Basic usage:
+cp source_file destination_file
+----------------------------------------------------------------------------------------
+3. mv - Move or Rename Files and Directories
+The mv command is used to move or rename files and directories.
+
+Basic usage (move a file):
+mv source_file destination_directory
+----------------------------------------------------------------------------------------
+4. rm - Remove Files and Directories
+The rm command is used to remove files or directories.
+
+Basic usage (remove a file):
+rm filename
+
+Remove a directory and its contents recursively:
+rm -r directory_name
+----------------------------------------------------------------------------------------

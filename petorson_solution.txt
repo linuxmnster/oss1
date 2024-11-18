@@ -1,0 +1,11 @@
+Peterson's solution is a synchronization algorithm that prevents two processes from simultaneously modifying a shared resource in an operating system. It's a solution to the critical section problem, which occurs when two processes try to access a shared resource at the same time.
+
+Mutual exclusion: Peterson's solution provides mutual exclusion, which means that two processes can share a resource without conflict. 
+
+Critical section: A critical section is a block of code where shared resources are located. 
+
+Shared variables: Peterson's solution uses shared variables to indicate whether a process is interested in the critical section. For example, the shared variable flag[0] indicates that process 0 is interested in the critical section. 
+
+Turn: The shared variable turn is set to either 0 or 1 randomly. 
+
+Algorithm: The algorithm involves each process repeatedly checking the shared variables and entering the critical section when it's safe to do so. 
